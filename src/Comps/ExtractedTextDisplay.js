@@ -35,14 +35,4 @@ const ExtractedTextDisplay = ({ extractedText, url }) => {
 export default ExtractedTextDisplay;
 
 
-/**const ExtractedTextDisplay = ({ extractedText, url }) => {
-    return (
-        <div>
-         <h3>Extracted text from: {url}</h3>
-         <p> extractedText: {extractedText} </p>
-        </div>
-    );
-};
-
-export default ExtractedTextDisplay;
- */
+ 
