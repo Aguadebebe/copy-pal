@@ -38,7 +38,7 @@ app.get("/api/scrape", async (req, res) => {
       return document.body.innerText.trim();
     });
 
-    console.log("Fetched Body Text:", extractedText);
+    //console.log("Fetched Body Text:", extractedText);
 
     // Close the browser instance
     await browser.close();
